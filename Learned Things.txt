@@ -1,6 +1,9 @@
 Make sure to add a SSH key first in github to push the commits 
 To see status of files: git status
-To stage all files: git add .
+To stage files ---
+    git add -A : stages all
+    git add . : stages new and modified, "without deleted"
+    git add -u : stages modified and deleted, "without new"
 To commit all files: git commit -m "whatever you want to have as message" 
 To see all the changes: git log
 To push the commits into github: git push origin master
