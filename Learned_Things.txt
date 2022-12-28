@@ -1,4 +1,5 @@
 Make sure to add a SSH key first in github to push the commits 
+Initialise a new Repository: git init
 To see status of files: git status
 To stage files ---
     git add -A : stages all
