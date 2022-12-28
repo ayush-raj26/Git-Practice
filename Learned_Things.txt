@@ -12,3 +12,6 @@ See change through diff command: git diff <file_name>
 To unstage a file: git reset <file_name>
 To revert the last change: git checkout <file_name>
 To clone another repository in a folder : git clone <SSH_key_of_the_repository> .
+
+To make a git ignore file: touch .gitignore
+To add in files inide to ignore: notepad .gitignore
